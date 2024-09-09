@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.primary-button {
+  @apply px-4 py-2 rounded-full border transform transition-transform duration-300 hover:scale-105;
+}
+.secondary-button {
+  @apply px-4 py-2 rounded-full transform transition-transform duration-300 hover:scale-105;
+}
+.middle-container {
+  @apply w-[85%] mx-auto;
+}
+.bg-orange-button {
+  @apply text-lg text-white bg-orange-500 py-2 px-10 rounded-full cursor-pointer hover:bg-orange-700 duration-200 ease-linear;
+}
+.border-button {
+  @apply text-lg text-gray-900 py-2 px-10 border border-gray-800 rounded-full cursor-pointer hover:bg-gray-200 duration-200 ease-linear;
+}
+.border-normal {
+  @apply text-sm px-12 py-2 border rounded-full cursor-pointer;
+}
